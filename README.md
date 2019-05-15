@@ -24,12 +24,11 @@ csv format:
 
 Your program should read data with unique_identifiers ZEC-AUD, LTC-AUD and BTC-AUD only.
 
-
-## Result
-
+## Instruction on how to run
 ## This is command line based Mini project on c++
 
-to compile          -> g++  filename.cpp 
+### for windows following command works fine.
+to compile          -> g++  filename.cpp <br>
 to check .exe file  -> dir  
 
 to execute we need to pass the argument in command line itself
@@ -46,14 +45,12 @@ to execute          -> filename.exe  interval_to_ask_for_data_in_secs  files[fil
 ### description of result
 If the file name is repeated while giving input in argument line,
 then i first maintain the frequency of all the filename given in input.
-Then i print data file wise , (with time interval provided in argument)*frequency of filename inorder to avoid repetation of same values again and again.
+Then i print data file wise , (with time interval provided in argument)*frequency of filename , inorder to avoid repetation of same values again and again.
+
 
 shown in output image.
 
-
-
-
-
+![output](https://user-images.githubusercontent.com/29300053/57810914-9aec2100-7786-11e9-8478-80769aa7ef41.JPG)
 
 
 
