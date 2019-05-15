@@ -16,10 +16,10 @@ E.g.:
 
 
 csv format:
-unique_identifier, timestamp, price
-ZEC-AUD,1557151703023977,7717
-LTC-AUD,1557151785388304,7470
-LTC-AUD,1557151785388304,0
+#### unique_identifier, timestamp, price
+#### ZEC-AUD,1557151703023977,7717
+#### LTC-AUD,1557151785388304,7470
+#### LTC-AUD,1557151785388304,0
 
 
 Your program should read data with unique_identifiers ZEC-AUD, LTC-AUD and BTC-AUD only.
@@ -38,10 +38,10 @@ to execute          -> filename.exe  interval_to_ask_for_data_in_secs  files[fil
 
 ### result will be obtained in following format:
 
-unique_identifier timestamp        price
-ZEC-AUD           1557151703023977 7717
-LTC-AUD           1557151785388304 7470
-LTC-AUD           1557151785388304 0
+#### unique_identifier timestamp        price
+#### ZEC-AUD           1557151703023977 7717
+#### LTC-AUD           1557151785388304 7470
+#### LTC-AUD           1557151785388304 0
 
 ### description of result
 If the file name is repeated while giving input in argument line,
